@@ -377,13 +377,13 @@ a {
     font-size: 14px;
     margin-bottom: 0; }
 
-.blog-share-wrapper {
+/* .blog-share-wrapper {
   float: right;
   display: inline-block;
   margin: 0 -5px; }
   .blog-share-wrapper .blog-share {
     padding: 0 5px;
-    cursor: pointer; }
+    cursor: pointer; } */
 
 #gtco-counter {
   position: relative; }
