@@ -205,7 +205,13 @@ a {
   z-index: 11;
   transition: background-color .3s ease-in-out;
   border-top-right-radius: 5px;
-  border-top-left-radius: 5px; }
+  border-top-left-radius: 5px;
+  background-color: #36454F;
+  /* background: -webkit-linear-gradient(to right, #D77475, #17427E);
+  background: linear-gradient(to right, #D77475, #17427E); */
+  background: -webkit-linear-gradient(to right, #6F5E8F, #D77475);
+  background: linear-gradient(to right, #6F5E8F, #D77475);
+}
 
 .navbar-brand {
   font-size: 40px;
@@ -497,14 +503,20 @@ footer {
   .card-deck {
     flex-direction: column; } }
 
-    .nav-item {
-      padding-top: 10px;
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-bottom: 10px;
-      color: white;
+  .nav-item {
+      padding-top: 5px;
+      padding-bottom: 5px;
     }
+
+  @media (min-width: 768px) {
+    .nav-item {
+      min-width: 16.66%;
+      text-align: center;
+    }
+  }
 
     .nav-item .nav-link {
       color: white;
     }
+
+  
