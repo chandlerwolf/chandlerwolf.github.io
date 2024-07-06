@@ -1,3 +1,3 @@
-#ChandlerJamesOfficial.github.io
+#ChandlerWolf.github.io
 
-Chandler James Official Website
+Chandler Wolf
