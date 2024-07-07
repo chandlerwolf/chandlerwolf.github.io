@@ -250,7 +250,7 @@ a {
   transition: background-color 0.3s ease-in-out;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  background-color: #36454f;
+  background-color: #333333;
   /* background: -webkit-linear-gradient(to right, #D77475, #17427E);
   background: linear-gradient(to right, #D77475, #17427E); */
   /* background: -webkit-linear-gradient(to right, #6F5E8F, #D77475);
