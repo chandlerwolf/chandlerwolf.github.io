@@ -178,7 +178,7 @@
 
     // Add state?
     if (typeof addState != 'undefined' && addState === true)
-      history.pushState(null, null, '#');
+      history.pushState(null, null, '/');
 
     // Handle lock.
 
