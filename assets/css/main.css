@@ -1789,3 +1789,58 @@ body.is-preload #footer {
 .nav-link {
   border-bottom-color: transparent;
 }
+
+/* Grow */
+
+.growsmall {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.growsmall:hover {
+  transform: scale(1.2);
+}
+
+.grow:hover {
+  transform: scale(1.4);
+}
+
+/* Wolf */
+.wolf:hover {
+  /* color: #a6aeed; */
+  filter: brightness(0) saturate(100%) invert(68%) sepia(44%) saturate(491%)
+    hue-rotate(198deg) brightness(97%) contrast(91%);
+}
+
+/* CV */
+.fa-file-lines:hover {
+  color: #da0403;
+}
+
+/* Instagram */
+.fa-instagram:hover {
+  color: #c13584;
+}
+
+/* X */
+.fa-x-twitter:hover {
+  color: #080808;
+}
+
+/* Spotlight */
+.fa-portrait:hover {
+  color: #2641e6;
+}
+
+/* IMDB */
+.fa-imdb:hover {
+  color: #f3ce13;
+}
+
+/* Backstage */
+.fa-person-booth:hover {
+  color: #fc6364;
+}
