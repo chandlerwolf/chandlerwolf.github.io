@@ -1,0 +1,6 @@
+version: STSv1
+mode: testing
+mx: mail.chandlerwolf.co.uk
+mx: *.chandlerwolf.net
+mx: backupmx.chandlerwolf.co.uk
+max_age: 604800
